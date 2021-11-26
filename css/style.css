@@ -1,0 +1,132 @@
+.TEAM {
+  background-color: #FAFBFC !important;
+  font-family: "Cabin", sans-serif;
+  font-family: "Inconsolata", monospace;
+  font-family: "Montserrat", sans-serif;
+}
+
+.team {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+.team h1 {
+  font-size: 35px;
+  color: #071E55;
+  font-weight: 600;
+}
+.team .text {
+  max-width: 750px;
+}
+.team p {
+  color: #7C8595;
+  font-size: 17px;
+  text-align: center;
+  flex-wrap: wrap;
+}
+.team .col-12 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 20px;
+}
+.team .col-12 img {
+  margin-top: 20px;
+  max-width: 200px;
+  border-radius: 50%;
+  border: 10px solid white;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+}
+.team .col-12 h2 {
+  font-size: 18px;
+  font-weight: 600;
+  color: #454B4B;
+  margin-top: 15px;
+}
+.team .col-12 span {
+  color: #c2c0c0;
+}
+.team .col-12 .chiziqcha {
+  width: 50px;
+  height: 3px;
+  background-color: #347afc;
+  margin: 20px 0px;
+}
+.team .col-12 .icon {
+  font-size: 16px;
+  border-radius: 50%;
+  color: white;
+  margin-right: 7px;
+}
+.team .col-12 .icon1 {
+  background-color: #4099FF;
+  padding: 10px 11px;
+}
+.team .col-12 .icon2 {
+  background-color: #C92228;
+  padding: 10px 13px;
+}
+.team .col-12 .icon3 {
+  background-color: #3B5998;
+  padding: 10px 13px;
+}
+.team .col-12 .icon4 {
+  background-color: #EA4C89;
+  padding: 10px 11px;
+}
+
+.TEAM2 {
+  background-color: white !important;
+  font-family: "Cabin", sans-serif;
+  font-family: "Inconsolata", monospace;
+  font-family: "Montserrat", sans-serif;
+}
+.TEAM2 .team2 {
+  padding-top: 80px;
+  padding-bottom: 80px;
+  background-color: white;
+}
+.TEAM2 .team2 .comp-get-user {
+  border-radius: 10px;
+  max-width: 850px;
+  width: 100%;
+  border: none;
+}
+.TEAM2 .team2 .col-2 {
+  margin-top: 50px !important;
+}
+.TEAM2 .team2 .col-2 a {
+  font-size: 40px;
+  color: white;
+  background-color: #017DF7;
+  padding: 15px;
+  border-radius: 50%;
+}
+.TEAM2 .team2 .col-10 h3 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #071E55;
+  margin-top: 40px;
+}
+
+.cards div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.cards div h4 {
+  font-size: 20px;
+  color: #071E55;
+  font-weight: 600;
+}
+.cards div .imageslar {
+  width: 55px;
+  margin: 40px 10px 10px 10px;
+}
+
+/*# sourceMappingURL=style.css.map */

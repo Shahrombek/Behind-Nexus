@@ -1,0 +1,140 @@
+.TEAM{
+    background-color: #FAFBFC !important;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.team{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 80px;
+    padding-bottom: 80px;
+
+    h1{
+        font-size: 35px;
+        color: #071E55;
+        font-weight: 600;
+    }
+    .text{
+        max-width: 750px;
+    }
+    p{
+        color: #7C8595;
+        font-size: 17px;
+        text-align: center;
+        flex-wrap: wrap;
+    }
+    .col-12{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 0 20px;
+
+        img{
+            margin-top: 20px;
+            max-width: 200px;
+            border-radius: 50%;
+            border: 10px solid white;
+            box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.3);
+        }
+        h2{
+            font-size: 18px;
+            font-weight: 600;
+            color: #454B4B;
+            margin-top: 15px;
+        }
+        span{
+            color: rgb(194, 192, 192);
+        }
+        .chiziqcha{
+            width: 50px;
+            height: 3px;
+            background-color: rgb(52, 122, 252);
+            margin: 20px 0px;
+        }
+        .icon{
+            font-size: 16px;
+            border-radius: 50%;
+            color: white;
+            margin-right: 7px;
+        }
+        .icon1{
+            background-color: #4099FF;
+            padding: 10px 11px;
+        }
+        .icon2{
+            background-color: #C92228;
+            padding: 10px 13px;
+        }
+        .icon3{
+            background-color: #3B5998;
+            padding: 10px 13px;
+        }
+        .icon4{
+            background-color: #EA4C89;
+            padding: 10px 11px;
+        }
+    }
+}
+
+.TEAM2{
+    background-color: white !important;
+    font-family: 'Cabin', sans-serif;
+    font-family: 'Inconsolata', monospace;
+    font-family: 'Montserrat', sans-serif;
+    
+    .team2{
+        padding-top: 80px;
+        padding-bottom: 80px;
+        background-color: white;
+        .comp-get-user{
+            border-radius: 10px ;
+            max-width: 850px ;
+            width: 100%;
+            border: none ;
+        }
+
+        .col-2{
+            margin-top: 50px !important;
+            a{
+                font-size: 40px;
+                color: white;
+                background-color: #017DF7;
+                padding: 15px;
+                border-radius: 50%;
+            }
+        }
+        .col-10{
+            h3{
+                font-size: 22px;
+                font-weight: 600;
+                color: #071E55;
+                margin-top: 40px;
+            }
+        }
+    }
+}
+
+
+.cards{
+    div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        h4{
+            font-size: 20px;
+            color: #071E55;
+            font-weight: 600;
+        }
+
+        .imageslar{
+            width: 55px;
+            margin: 40px 10px 10px 10px;
+        }
+    }
+}
